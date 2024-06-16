@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cloudcore007"
-    key    = "terraform.tfstate"
+    bucket = "quiz-app-bucket-repository001"
+    key    = "quiz_app/terraform.tfstate"
     region = "us-east-1"
   }
 

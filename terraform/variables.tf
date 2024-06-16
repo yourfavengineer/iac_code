@@ -44,7 +44,7 @@ variable "iam-role" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-0c7217cdde317cfec" // Replace with the latest AMI ID for your region
+  default     = "ami-04b70fa74e45c3917" // Replace with the latest AMI ID for your region
 }
 
 variable "instance_type" {
@@ -64,4 +64,4 @@ variable "instance_name" {
   type        = string
   default     = "Jumphost-server"
 }
-#
+#changes to be made to the repository
